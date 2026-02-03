@@ -28,6 +28,8 @@ bld/
 .vscode/
 !.vscode/launch.json
 !.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/settings.review.json
 
 # Rider
 .idea/
