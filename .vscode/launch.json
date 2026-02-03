@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (SortingAndSearching)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/SortingAndSearching/bin/Debug/net8.0/SortingAndSearching.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SortingAndSearching",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
