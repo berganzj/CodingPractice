@@ -1,0 +1,56 @@
+{
+    // Review mode - IntelliSense and autocomplete ENABLED
+    // To disable for practice, run: ./toggle-intellisense.sh
+    
+    // Enable autocomplete/suggestions
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.parameterHints.enabled": true,
+    "editor.suggest.showWords": true,
+    "editor.suggest.showKeywords": true,
+    "editor.suggest.showSnippets": true,
+    "editor.suggest.showClasses": true,
+    "editor.suggest.showFunctions": true,
+    "editor.suggest.showVariables": true,
+    "editor.suggest.showProperties": true,
+    "editor.suggest.showFields": true,
+    "editor.suggest.showMethods": true,
+    "editor.suggest.showEnums": true,
+    "editor.suggest.showModules": true,
+    "editor.suggest.showConstants": true,
+    "editor.suggest.showStructs": true,
+    "editor.suggest.showInterfaces": true,
+    "editor.suggest.showEvents": true,
+    "editor.suggest.showOperators": true,
+    "editor.suggest.showUnits": true,
+    "editor.suggest.showValues": true,
+    "editor.suggest.showColors": true,
+    "editor.suggest.showFiles": true,
+    "editor.suggest.showReferences": true,
+    "editor.suggest.showCustomcolors": true,
+    "editor.suggest.showFolders": true,
+    "editor.suggest.showTypeParameters": true,
+    "editor.suggest.showIssues": true,
+    "editor.suggest.showUsers": true,
+    "editor.suggest.showText": true,
+    
+    // Enable IntelliSense hover information
+    "editor.hover.enabled": true,
+    
+    // Enable code actions/lightbulb
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    
+    // Enable auto closing brackets/quotes
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.autoClosingQuotes": "languageDefined",
+    
+    // Enable auto indentation
+    "editor.autoIndent": "full"
+}

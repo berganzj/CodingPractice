@@ -1,0 +1,55 @@
+{
+    // Practice mode - IntelliSense and autocomplete DISABLED
+    // To enable for review, run: ./toggle-intellisense.sh
+    
+    // Disable autocomplete/suggestions
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.showWords": false,
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showSnippets": false,
+    "editor.suggest.showClasses": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showVariables": false,
+    "editor.suggest.showProperties": false,
+    "editor.suggest.showFields": false,
+    "editor.suggest.showMethods": false,
+    "editor.suggest.showEnums": false,
+    "editor.suggest.showModules": false,
+    "editor.suggest.showConstants": false,
+    "editor.suggest.showStructs": false,
+    "editor.suggest.showInterfaces": false,
+    "editor.suggest.showEvents": false,
+    "editor.suggest.showOperators": false,
+    "editor.suggest.showUnits": false,
+    "editor.suggest.showValues": false,
+    "editor.suggest.showColors": false,
+    "editor.suggest.showFiles": false,
+    "editor.suggest.showReferences": false,
+    "editor.suggest.showCustomcolors": false,
+    "editor.suggest.showFolders": false,
+    "editor.suggest.showTypeParameters": false,
+    "editor.suggest.showIssues": false,
+    "editor.suggest.showUsers": false,
+    "editor.suggest.showText": false,
+    
+    // Disable IntelliSense hover information
+    "editor.hover.enabled": false,
+    
+    // Disable code actions/lightbulb
+    "editor.codeActionsOnSave": {},
+    "editor.codeActionsOnSaveTimeout": 0,
+    
+    // Disable auto closing brackets/quotes (optional, for more challenge)
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    
+    // Disable auto indentation (optional)
+    "editor.autoIndent": "none"
+}
