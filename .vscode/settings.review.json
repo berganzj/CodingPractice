@@ -1,5 +1,5 @@
 {
-    // Review mode - IntelliSense and autocomplete ENABLED
+    // Review mode - IntelliSense, Cursor AI, and all autocomplete ENABLED
     // To disable for practice, run: ./toggle-intellisense.sh
     
     // Enable autocomplete/suggestions
@@ -52,5 +52,37 @@
     "editor.autoClosingQuotes": "languageDefined",
     
     // Enable auto indentation
-    "editor.autoIndent": "full"
+    "editor.autoIndent": "full",
+    
+    // Enable Cursor Tab (AI inline completions)
+    "cursor.general.enableCursorTab": true,
+    
+    // Enable GitHub Copilot
+    "github.copilot.enable": {
+        "*": true
+    },
+    
+    // Enable inline suggestions
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggest.preview": true,
+    "editor.suggest.showStatusBar": true,
+    
+    // Enable accepting suggestions automatically
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.tabCompletion": "on",
+    
+    // Enable AI-powered features
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggest.filterGraceful": true,
+    
+    // Language-specific settings for C#
+    "[csharp]": {
+        "editor.inlineSuggest.enabled": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    }
 }

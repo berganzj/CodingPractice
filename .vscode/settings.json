@@ -1,5 +1,5 @@
 {
-    // Practice mode - IntelliSense and autocomplete DISABLED
+    // Practice mode - IntelliSense, Cursor AI, and all autocomplete DISABLED
     // To enable for review, run: ./toggle-intellisense.sh
     
     // Disable autocomplete/suggestions
@@ -51,5 +51,38 @@
     "editor.autoClosingQuotes": "never",
     
     // Disable auto indentation (optional)
-    "editor.autoIndent": "none"
+    "editor.autoIndent": "none",
+    
+    // Disable Cursor Tab (AI inline completions)
+    "cursor.general.enableCursorTab": false,
+    "cursor.cpp.disabledLanguages": ["*"],
+    
+    // Disable GitHub Copilot
+    "github.copilot.enable": {
+        "*": false
+    },
+    
+    // Disable inline suggestions completely
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggest.preview": false,
+    "editor.suggest.showStatusBar": false,
+    
+    // Disable accepting suggestions automatically
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "off",
+    
+    // Disable AI-powered features
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.suggest.filterGraceful": false,
+    
+    // Language-specific settings for C#
+    "[csharp]": {
+        "editor.inlineSuggest.enabled": false,
+        "editor.quickSuggestions": {
+            "other": false,
+            "comments": false,
+            "strings": false
+        }
+    }
 }
