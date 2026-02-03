@@ -26,6 +26,8 @@ bld/
 
 # Visual Studio Code
 .vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
 
 # Rider
 .idea/
