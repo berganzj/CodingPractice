@@ -56,6 +56,14 @@
     // Disable Cursor Tab (AI inline completions)
     "cursor.general.enableCursorTab": false,
     "cursor.cpp.disabledLanguages": ["*"],
+    "cursor.tab.enabled": false,
+    "cursor.tab.autocompleteEnabled": false,
+    
+    // Disable Cursor AI features
+    "cursor.ai.enabled": false,
+    "cursor.chat.enabled": false,
+    "cursor.composer.enabled": false,
+    "cursor.autocomplete.enabled": false,
     
     // Disable GitHub Copilot
     "github.copilot.enable": {
@@ -66,6 +74,8 @@
     "editor.inlineSuggest.enabled": false,
     "editor.suggest.preview": false,
     "editor.suggest.showStatusBar": false,
+    "editor.inlineSuggest.showToolbar": "never",
+    "editor.inlineSuggest.suppressSuggestions": true,
     
     // Disable accepting suggestions automatically
     "editor.acceptSuggestionOnCommitCharacter": false,

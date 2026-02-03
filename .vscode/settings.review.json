@@ -56,6 +56,14 @@
     
     // Enable Cursor Tab (AI inline completions)
     "cursor.general.enableCursorTab": true,
+    "cursor.tab.enabled": true,
+    "cursor.tab.autocompleteEnabled": true,
+    
+    // Enable Cursor AI features
+    "cursor.ai.enabled": true,
+    "cursor.chat.enabled": true,
+    "cursor.composer.enabled": true,
+    "cursor.autocomplete.enabled": true,
     
     // Enable GitHub Copilot
     "github.copilot.enable": {
@@ -66,6 +74,8 @@
     "editor.inlineSuggest.enabled": true,
     "editor.suggest.preview": true,
     "editor.suggest.showStatusBar": true,
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.inlineSuggest.suppressSuggestions": false,
     
     // Enable accepting suggestions automatically
     "editor.acceptSuggestionOnCommitCharacter": true,
